@@ -1,3 +1,10 @@
+/**
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/static/JosefinSans-Thin.ttff);
+  }
+ **/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -144,15 +151,27 @@ body{
 
 .container-right{
 	position: absolute;
-	border: 1px solid black;
 	color: black;
 	height: 500px;
-	margin: 30px 1000px;
-	width: 350px;
+	margin: 30px 1030px;
+	width: 300px;
 }
 
-.container-right img{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	height: 500px;
-	width: 350px;
+
+.container-right #gif1{
+	border: 1px solid blue;
+	height: 200px;
+	width: 300px;
+}
+.container-right #gif2{
+	border: 1px solid blue;
+	margin-top: 25px;
+	height: 200px;
+	width: 300px;
+}
+
+.container-right a{
+	background-color: #ffebbb;
+	margin-top: 10px;
+	color: maroon;
 }
