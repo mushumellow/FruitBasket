@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+body{
+	margin: 0;
+	background-color: white;
+}
+.img-bg{
+	height: 650px;
+	width: 100%;
+	position: absolute;
+}
+.header{
+	height: 70px;
+	width: 100%;
+	position: relative;
+}
+
+.left{
+	position: absolute;
+	height: 50px;
+	width: 100px;
+	left: 38px;
+	top: 10px;
+	display: inline-block;
+	color: white;
+}
+.left img{
+	height: 30px;
+	width: 35px;
+	margin-left: 33px;
+}
+.left div{
+	font-size: 18px;
+	color: darkgoldenrod;
+	text-align: center;
+}
+
+/* Logo */
+
+.mid{
+	padding: 15px;
+	width: 50%;
+	margin: 15px 18%;
+	display: block;
+	color: black;
+}
+
+.navbar{
+	display: inline-block;
+}
+
+.navbar li{
+	display: inline-block;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.navbar li a{
+	font-weight: bold;
+	color: darkgoldenrod;
+	text-decoration: none;
+	padding: 20px 22px;
+	
+}
+.navbar li a:hover, .navbar li a.active{
+	color: maroon;
+}
+
+.right{
+	position: absolute;
+	height: 30px;
+	width: 280px;
+	right: 34px;
+	top: 25px;
+	display: inline-block;
+	color: white;
+}
+.right .btn{
+	font-family: serif;
+	margin: 0px 3px;
+	background-color: gold;
+	color: navy;
+	padding: 4px 10px;
+	border: 2px solid grey;
+	border-radius: 2px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.right .btn:hover{
+	background-color: maroon;
+	color: white;
+}
+
+.container-left{
+	position: absolute;
+	color: black;
+	height: 400px;
+	margin: 50px 15px;
+	padding: 25px;
+	width: 23%;
+}
+
+.container-left h1{
+	font-size: 50px;
+	color: darkred;
+	padding: 6px;
+	font-weight: bold;
+}
+
+.container-left #p1{
+	letter-spacing: 1px;
+	background-color: peachpuff;
+	font-size: 18px;
+	margin-top: 8px;
+	padding:6px ;
+}
+
+.container-left #p2{
+	background-color: #ffebbb;
+	letter-spacing: 1px;
+	font-size: 18px;
+	margin-top: 4px;
+	padding:6px ;
+}
+
+.container-left #p3{
+	background-color: #fdffcd;
+	letter-spacing: 1px;
+	color: red;
+	font-size: 18px;
+	margin-top: 4px;
+	padding:6px ;
+}
+.container-left #p4{
+	letter-spacing: 1px;
+	color: maroon;
+	font-size: 45px;
+	margin-top: 8px;
+	padding:4px ;
+}
+
+.container-right{
+	position: absolute;
+	border: 1px solid black;
+	color: black;
+	height: 500px;
+	margin: 30px 1000px;
+	width: 350px;
+}
+
+.container-right img{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 500px;
+	width: 350px;
+}
